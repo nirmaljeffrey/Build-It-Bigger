@@ -1,13 +1,20 @@
 ## Build-it-Bigger
 Udacity's Android developer nano degree project
-After downloading this app, generate the google admob application ID from the [Google Admob](https://developers.google.com/admob/android/quick-start)and 
+After downloading this app, generate the google admob application ID from the [Google Admob](https://developers.google.com/admob/android/quick-start) and 
 use that application ID in [string.xml](app/src/free/res/values/strings.xml) file(line no: 3).
 
 ## Video
 Free version
+
+
 [![Build It Bigger App Free Version Demo](https://img.youtube.com/vi/mLwsjgmqQIQ/0.jpg)](https://www.youtube.com/watch?v=mLwsjgmqQIQ)
+
+
 Paid Version
+
+
 [![Build It Bigger App Paid Version Demo](https://img.youtube.com/vi/bGvLXJLaoYw/0.jpg)](https://www.youtube.com/watch?v=bGvLXJLaoYw)
+
 
 ## App Features
 
