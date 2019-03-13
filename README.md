@@ -1,5 +1,6 @@
 ## Build-it-Bigger
 Udacity's Android developer nano degree project
+
 After downloading this app, generate the google admob application ID from the [Google Admob](https://developers.google.com/admob/android/quick-start) and 
 use that application ID in [string.xml](app/src/free/res/values/strings.xml) file(line no: 3).
 
