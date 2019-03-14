@@ -19,6 +19,7 @@ import com.udacity.gradle.builditbigger.R;
 
 public class MainActivity extends AppCompatActivity implements TaskCompleteListener {
 
+  private static final String JOKE_INTENT_EXTRA_CONSTANT = "joke";
   private InterstitialAd interstitialAd;
   private ProgressBar spinner;
 
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements TaskCompleteListe
   public void onTaskComplete(String result) {
 
     Intent intent = new Intent(MainActivity.this, JokeActivity.class);
-    intent.putExtra("joke", result);
+    intent.putExtra(JOKE_INTENT_EXTRA_CONSTANT, result);
     startActivity(intent);
     spinner.setVisibility(View.GONE);
 
