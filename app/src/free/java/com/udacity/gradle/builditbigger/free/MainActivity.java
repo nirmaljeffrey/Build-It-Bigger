@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity implements TaskCompleteListe
 
   private void loadInterstitialAd() {
     AdRequest interstitialAdRequest = new AdRequest.Builder()
+        .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
         .addTestDevice("C09E051179EC23266E060DB3F44325E6")
         .build();
     interstitialAd.loadAd(interstitialAdRequest);
